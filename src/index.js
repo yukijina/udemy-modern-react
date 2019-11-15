@@ -1,13 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
 const App = () => {
-    return <div>Hi there!</div>
+    return <div>Hi There</div>
 }
 
-ReactDOM.render(
-    <App />,
-    document.getElementById('root')
-)
-
-export default App;
+ReactDOM.render(<App />, document.getElementById('root'))
